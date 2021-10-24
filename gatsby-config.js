@@ -1,5 +1,3 @@
-import "./src/css/index.css";
-
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
