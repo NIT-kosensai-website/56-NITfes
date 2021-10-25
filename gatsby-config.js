@@ -1,12 +1,20 @@
 module.exports = {
   siteMetadata: {
+    title: "沼津高専第56回高専祭",
     siteUrl: "https://www.yourdomain.tld",
-    title: "56-NITfes",
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+     `gatsby-transformer-json`,
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `data`,
+          path: `${__dirname}/src/data/`,
+        },
+      },
     //tailwindcss関連のプラグイン
     `gatsby-plugin-postcss`,
     {
