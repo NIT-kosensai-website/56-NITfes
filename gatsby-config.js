@@ -16,7 +16,7 @@ module.exports = {
         },
       },
     //tailwindcss関連のプラグイン
-    `gatsby-plugin-postcss`,
+    'gatsby-plugin-postcss',
     {
       resolve: "gatsby-source-filesystem",
       options: {
