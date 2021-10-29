@@ -1,16 +1,14 @@
-import "./src/css/index.css";
-
 module.exports = {
   siteMetadata: {
+    title: "沼津高専第56回高専祭",
     siteUrl: "https://www.yourdomain.tld",
-    title: "56-NITfes",
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     //tailwindcss関連のプラグイン
-    `gatsby-plugin-postcss`,
+    'gatsby-plugin-postcss',
     {
       resolve: "gatsby-source-filesystem",
       options: {
