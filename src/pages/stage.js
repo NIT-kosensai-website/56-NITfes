@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import { graphql, StaticQuery } from "gatsby";
 
 const StagePage = () => {
   return (
@@ -11,25 +10,8 @@ const StagePage = () => {
         <table className="mx-auto">
           <thead>
             <tr>
-              <StaticQuery
-                query={graphql`
-                  query StageDayOneQuery {
-                    allStagedayoneJson {
-                      edges {
-                        node {
-                          head
-                          content {
-                            Stime
-                            Etime
-                            content
-                          }
-                        }
-                      }
-                    }
-                  }
-                `}
-                render={(data) => data.head.map((e) => <th>{e}</th>)}
-              ></StaticQuery>
+              <th>時間</th>
+              <th>企画内容</th>
             </tr>
           </thead>
           <tbody>
