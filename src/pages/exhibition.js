@@ -15,8 +15,8 @@ const exhibitionPage = () => {
             「留学生の部屋」では留学生が自分たちの出身国の紹介をします。
             ぜひお越しください。
           </p>
-          <div className="px-6 pt-4 pb-2 bg-gray-200">
-            <p className="text-base">場所：専攻科棟 102</p>
+          <div className="px-6 pt-4 pb-2 bg-green-500">
+            <p className="text-white text-base">場所：専攻科棟 102</p>
           </div>
         </div>
       </div>
