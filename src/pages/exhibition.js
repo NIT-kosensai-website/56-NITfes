@@ -79,7 +79,7 @@ const exhibitionPage = () => {
             </p>
             <div className="px-6 pt-4 pb-2">
               <p className="text-white text-base bg-green-500 rounded-full px-4 py-4">
-                場所：共通教室3
+                場所：屋外出店
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ const exhibitionPage = () => {
             </p>
             <div className="px-6 pt-4 pb-2">
               <p className="text-white text-base bg-green-500 rounded-full px-4 py-4">
-                場所：屋外出店
+                場所：共通教室3
               </p>
             </div>
           </div>
