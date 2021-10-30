@@ -21,7 +21,7 @@ const exhibitionPage = () => {
               </p>
             </p>
             <div className="px-6 pt-4 pb-2">
-              <p className="text-white text-base bg-green-500 rounded-full">
+              <p className="text-white text-base bg-green-500 rounded-full px-4 py-4">
                 場所：専攻科棟 102
               </p>
             </div>
@@ -58,7 +58,7 @@ const exhibitionPage = () => {
               <p>高専祭限定となっていますので、ぜひお越しください。</p>
             </p>
             <div className="px-6 pt-4 pb-2">
-              <p className="text-white text-base bg-green-500 rounded-full">
+              <p className="text-white text-base bg-green-500 rounded-full px-4 py-4">
                 場所：講義棟地下 S2教室
               </p>
             </div>
@@ -78,7 +78,7 @@ const exhibitionPage = () => {
               </p>
             </p>
             <div className="px-6 pt-4 pb-2">
-              <p className="text-white text-base bg-green-500 rounded-full">
+              <p className="text-white text-base bg-green-500 rounded-full px-4 py-4">
                 場所：屋外出店
               </p>
             </div>
@@ -114,7 +114,7 @@ const exhibitionPage = () => {
               </div>
             </p>
             <div className="px-6 pt-4 pb-2">
-              <p className="text-white text-base bg-green-500 rounded-full">
+              <p className="text-white text-base bg-green-500 rounded-full px-4 py-4">
                 場所：屋外出店
               </p>
             </div>
