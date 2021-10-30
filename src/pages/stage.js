@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from "gatsby";
 const StagePage = () => {
   const jsonmap = useStaticQuery(graphql`
     query {
-      allstageday1Json {
+      allstagedayoneJson {
         edges {
           node {
             head
