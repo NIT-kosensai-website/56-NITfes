@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 const mapPage = () => {
   return (
     <div className="h-screen bg-gray-200">
