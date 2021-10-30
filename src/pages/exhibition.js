@@ -30,7 +30,7 @@ const exhibitionPage = () => {
         <div className="rounded border-solid border-2 border-green-500 max-w-sm overflow-hidden shadow-lg">
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">暇人同好会</div>
-            <div className="font-bold text-xl mb-3 text-green-600">
+            <div className="font-bold text-xl mb-3 text-green-600 py-2">
               輪ゴム銃
             </div>
             <p className="text-base">
@@ -50,7 +50,7 @@ const exhibitionPage = () => {
                 特許を取得した新たな機能も追加しますので、ぜひ作りに来てください。
               </p>
             </p>
-            <div className="font-bold text-xl mb-3 text-green-600">
+            <div className="font-bold text-xl mb-3 text-green-600 py-2">
               ボードゲーム
             </div>
             <p className="text-base">
