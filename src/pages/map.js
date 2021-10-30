@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 const mapPage = () => {
   return (
-    <div className="h-screen bg-gray-200">
+    <div className="h-full bg-gray-200">
       <div className="flex justify-center">
         <StaticImage
           src="../images/map.png"
