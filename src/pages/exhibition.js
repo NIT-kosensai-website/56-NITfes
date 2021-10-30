@@ -10,7 +10,7 @@ const exhibitionPage = () => {
         <div className="rounded border-solid border-2 border-green-500 max-w-sm overflow-hidden shadow-lg">
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">留学生の部屋</div>
-            <p className="text-gray-700 text-base">
+            <p className="text-base">
               <p>
                 沼津高専には、現在、アジアの4ヵ国から来た6名の外国人留学生がいます。
               </p>
@@ -20,8 +20,10 @@ const exhibitionPage = () => {
                 ぜひお越しください。
               </p>
             </p>
-            <div className="px-6 pt-4 pb-2 bg-green-500 rounded-full">
-              <p className="text-white text-base">場所：専攻科棟 102</p>
+            <div className="px-6 pt-4 pb-2">
+              <p className="text-white text-base bg-green-500 rounded-full">
+                場所：専攻科棟 102
+              </p>
             </div>
           </div>
         </div>
@@ -31,7 +33,7 @@ const exhibitionPage = () => {
             <div className="font-bold text-xl mb-3 text-green-600">
               輪ゴム銃
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-base">
               <p>
                 射撃携帯切り替え式複合ゴム銃 Shortbread Ⅵ
                 製作キットの販売を行います。
@@ -51,12 +53,14 @@ const exhibitionPage = () => {
             <div className="font-bold text-xl mb-3 text-green-600">
               ボードゲーム
             </div>
-            <p className="text-gray-700 text-base">
+            <p className="text-base">
               <p>オリジナルボードゲームの対戦・販売を行っています・</p>
               <p>高専祭限定となっていますので、ぜひお越しください。</p>
             </p>
-            <div className="px-6 pt-4 pb-2 bg-green-500 rounded-full">
-              <p className="text-white text-base">場所：講義棟地下 S教室</p>
+            <div className="px-6 pt-4 pb-2">
+              <p className="text-white text-base bg-green-500 rounded-full">
+                場所：講義棟地下 S2教室
+              </p>
             </div>
           </div>
         </div>
