@@ -1,25 +1,8 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, StaticQuery } from "gatsby";
 
 const StagePage = () => {
-  const jsonmapping = useStaticQuery(graphql`
-    query {
-      allstagedayoneJson {
-        edges {
-          node {
-            head
-            content {
-              Stime
-              Etime
-              content
-            }
-          }
-        }
-      }
-    }
-  `);
-  const jsonmapdata = jsonmapping.allstageday1Json.edges;
   return (
     <div className="h-full bg-gray-200">
       <div className="max-w-screen-sm mx-auto">
@@ -28,9 +11,25 @@ const StagePage = () => {
         <table className="mx-auto">
           <thead>
             <tr>
-              {jsonmapdata.head.map((e) => (
-                <th>{e}</th>
-              ))}
+              <StaticQuery
+                query={graphql`
+                  query StageDayOneQuery {
+                    allstagedayoneJson {
+                      edges {
+                        node {
+                          head
+                          content {
+                            Stime
+                            Etime
+                            content
+                          }
+                        }
+                      }
+                    }
+                  }
+                `}
+                render={(data) => data.head.map((e) => <th>{e}</th>)}
+              ></StaticQuery>
             </tr>
           </thead>
           <tbody>
