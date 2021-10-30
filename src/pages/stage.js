@@ -14,7 +14,7 @@ const StagePage = () => {
               <StaticQuery
                 query={graphql`
                   query StageDayOneQuery {
-                    allstagedayoneJson {
+                    allStagedayoneJson {
                       edges {
                         node {
                           head
