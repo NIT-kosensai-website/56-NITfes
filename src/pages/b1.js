@@ -7,7 +7,11 @@ const bOnePage = () => {
         B1グランプリ
       </h1>
       <div className="flex justify-center">
-        <p className="text-lg">少女画像準備中...</p>
+        <StaticImage
+          src="../images/b1_grand_prix.png"
+          alt="map-image"
+          placeholder="blurred"
+        />
       </div>
       <div className="flex justify-center mt-8">
         <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-center">
