@@ -4,7 +4,7 @@ const exhibitionPage = () => {
   return (
     <div className="h-full bg-gray-200">
       <h1 className="text-2xl text-center pt-8">展示</h1>
-      <div className="flex justify-center">
+      <div className="flex justify-center py-4">
         <div className="rounded border-solid border-2 border-green-500 max-w-sm overflow-hidden shadow-lg">
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">留学生の部屋</div>
@@ -25,6 +25,8 @@ const exhibitionPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center py-4">
         <div className="rounded border-solid border-2 border-green-500 max-w-sm overflow-hidden shadow-lg">
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">暇人同好会</div>
@@ -63,7 +65,7 @@ const exhibitionPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center py-4">
         <div className="rounded border-solid border-2 border-green-500 max-w-sm overflow-hidden shadow-lg">
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">茶道同好会</div>
@@ -83,7 +85,7 @@ const exhibitionPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center py-4">
         <div className="rounded border-solid border-2 border-green-500 max-w-sm overflow-hidden shadow-lg">
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">NitArt</div>
