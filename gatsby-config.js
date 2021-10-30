@@ -17,12 +17,12 @@ module.exports = {
       },
       __key: "images",
     },
-    `gatsby-transformer-json`,
+    "gatsby-transformer-json",
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        typeName: `Json`,
-        path: `./src/json/`,
+        typeName: "Json",
+        path: "./src/json/",
       },
     },
   ],
