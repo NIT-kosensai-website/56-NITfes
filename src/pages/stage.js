@@ -10,8 +10,8 @@ const StagePage = () => {
           node {
             head
             content {
-              s-time
-              e-time
+              Stime
+              Etime
               content
             }
           }
