@@ -11,6 +11,7 @@ const bOnePage = () => {
         <StaticImage
           src="../images/b1_grand_prix.png"
           alt="map-image"
+          height="10em"
           placeholder="blurred"
         />
       </div>
