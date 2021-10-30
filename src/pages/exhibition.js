@@ -3,9 +3,7 @@ import { Link } from "gatsby";
 const exhibitionPage = () => {
   return (
     <div className="h-full bg-gray-200">
-      <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl pt-8">
-        展示
-      </h1>
+      <h1 className="text-2xl text-center pt-8">展示</h1>
       <div className="flex justify-center">
         <div className="rounded border-solid border-2 border-green-500 max-w-sm overflow-hidden shadow-lg">
           <div className="px-6 py-4">
