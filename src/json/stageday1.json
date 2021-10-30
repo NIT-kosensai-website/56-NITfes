@@ -1,0 +1,15 @@
+{
+  "head": ["時間", "企画内容"],
+  "content": [
+    { "s-time": "9:30", "e-time": "9:40", "content": "オープニング" },
+    { "s-time": "9:40", "e-time": "10:00", "content": "ダンス" },
+    { "s-time": "10:00", "e-time": "10:30", "content": "大道芸" },
+    { "s-time": "10:30", "e-time": "11:30", "content": "スマブラ" },
+    { "s-time": "11:30", "e-time": "11:50", "content": "吹奏楽" },
+    { "s-time": "11:50", "e-time": "13:10", "content": "昼休憩" },
+    { "s-time": "13:10", "e-time": "14:00", "content": "バンド" },
+    { "s-time": "14:00", "e-time": "14:30", "content": "マリオカート" },
+    { "s-time": "14:30", "e-time": "15:00", "content": "長対決" },
+    { "s-time": "15:00", "e-time": "15:10", "content": "エンディング" }
+  ]
+}

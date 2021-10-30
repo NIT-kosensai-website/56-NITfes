@@ -8,7 +8,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     //tailwindcss関連のプラグイン
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -16,6 +16,14 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `jsonmapping`,
+        path: `./src/json/`,
+      },
     },
   ],
 };

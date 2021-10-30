@@ -1,7 +1,25 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 
 const StagePage = () => {
+  const jsonmap = useStaticQuery(graphql`
+    query {
+      allstageday1Json {
+        edges {
+          node {
+            head
+            content {
+              s-time
+              e-time
+              content
+            }
+          }
+        }
+      }
+    }
+  `);
+  const jsonmapdata = jsonmap.allstageday1Json.edges;
   return (
     <div className="h-full bg-gray-200">
       <div className="max-w-screen-sm mx-auto">
@@ -10,8 +28,9 @@ const StagePage = () => {
         <table className="mx-auto">
           <thead>
             <tr>
-              <th>時間</th>
-              <th>企画内容</th>
+              {jsonmapdata.head.map((e) => (
+                <th>{e}</th>
+              ))}
             </tr>
           </thead>
           <tbody>
