@@ -85,6 +85,42 @@ const exhibitionPage = () => {
           </div>
         </div>
       </div>
+      <div className="flex justify-center">
+        <div className="rounded border-solid border-2 border-green-500 max-w-sm overflow-hidden shadow-lg">
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">NitArt</div>
+            <p className="text-base">
+              <p>NitArtとは、沼津高専生の創作活動を応援する組織です!</p>
+              <p>主な活動は今や恒例となった高専祭における展覧会の開催です。</p>
+              <p>
+                今年の展覧会は「自由展示」「140字小説」「ペア合作」「写真」という4つのテーマで作品を募集しました。
+              </p>
+              <ul>
+                <li>
+                  「自由展示」…絵、立体作品などなど文字通り自由な部門です。
+                </li>
+                <li>「140字小説」…140字以内の小説を作る部門です。</li>
+                <li>「ペア合作」…2人以上で1つの作品を仕上げる部門です。</li>
+                <li>「写真」…使用した機材に関係なく写真を募集する部門です。</li>
+              </ul>
+              <p>
+                今年度もこうして展覧会を開くことができ大変うれしく思っています。沼津高専生の作製した作品、気になりませんか?沢山の方々のご来場お待ちしております。
+              </p>
+              <p>
+                また、隔月ひっそりと開催している季節ごとの企画展示や去年の高専祭の様子もあるので、良ければ下のQRコードから公式サイトも見に来てくださいね。
+              </p>
+              <div className="flex justify-center py-8">
+                <p className="text-lg">画像準備中...</p>
+              </div>
+            </p>
+            <div className="px-6 pt-4 pb-2">
+              <p className="text-white text-base bg-green-500 rounded-full">
+                場所：屋外出店
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="flex justify-center py-8">
         <p className="text-lg">記事準備中...</p>
       </div>
