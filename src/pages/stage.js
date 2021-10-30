@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 
 const StagePage = () => {
-  const jsonmap = useStaticQuery(graphql`
+  const jsonmapping = useStaticQuery(graphql`
     query {
       allstagedayoneJson {
         edges {
@@ -19,7 +19,7 @@ const StagePage = () => {
       }
     }
   `);
-  const jsonmapdata = jsonmap.allstageday1Json.edges;
+  const jsonmapdata = jsonmapping.allstageday1Json.edges;
   return (
     <div className="h-full bg-gray-200">
       <div className="max-w-screen-sm mx-auto">

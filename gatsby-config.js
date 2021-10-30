@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `jsonmapping`,
+        typeName: `Json`,
         path: `./src/json/`,
       },
     },
