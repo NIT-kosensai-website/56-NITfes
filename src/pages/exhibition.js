@@ -54,7 +54,7 @@ const exhibitionPage = () => {
               ボードゲーム
             </div>
             <p className="text-base">
-              <p>オリジナルボードゲームの対戦・販売を行っています・</p>
+              <p>オリジナルボードゲームの対戦・販売を行っています。</p>
               <p>高専祭限定となっていますので、ぜひお越しください。</p>
             </p>
             <div className="px-6 pt-4 pb-2">
