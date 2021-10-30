@@ -84,6 +84,7 @@ const exhibitionPage = () => {
             </div>
           </div>
         </div>
+      </div>
       <div className="flex justify-center py-8">
         <p className="text-lg">記事準備中...</p>
       </div>
