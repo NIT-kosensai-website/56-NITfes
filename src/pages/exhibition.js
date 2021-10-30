@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 const exhibitionPage = () => {
   return (
-    <div className="h-screen bg-gray-200">
+    <div className="h-full bg-gray-200">
       <h1 className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl pt-8">
         展示
       </h1>
