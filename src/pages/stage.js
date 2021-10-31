@@ -83,26 +83,30 @@ const StagePage = () => {
               <td class="border px-4 py-2">スマブラ</td>
             </tr>
             <tr className="bg-white">
+              <td class="border px-4 py-2">11:35~12:00</td>
+              <td class="border px-4 py-2">アカペラ</td>
+            </tr>
+            <tr className="bg-green-200">
               <td class="border px-4 py-2">12:00~13:00</td>
               <td class="border px-4 py-2">昼休憩</td>
             </tr>
-            <tr className="bg-green-200">
+            <tr className="bg-white">
               <td class="border px-4 py-2">13:00~13:30</td>
               <td class="border px-4 py-2">のど自慢</td>
             </tr>
-            <tr className="bg-white">
+            <tr className="bg-green-200">
               <td class="border px-4 py-2">13:30~14:00</td>
               <td class="border px-4 py-2">IPPONグランプリ</td>
             </tr>
-            <tr className="bg-green-200">
+            <tr className="bg-white">
               <td class="border px-4 py-2">14:00~14:30</td>
               <td class="border px-4 py-2">長対決</td>
             </tr>
-            <tr className="bg-white">
+            <tr className="bg-green-200">
               <td class="border px-4 py-2">14:30~14:50</td>
               <td class="border px-4 py-2">吹奏楽</td>
             </tr>
-            <tr className="bg-green-200">
+            <tr className="bg-white">
               <td class="border px-4 py-2">14:50~15:00</td>
               <td class="border px-4 py-2">エンディング</td>
             </tr>
